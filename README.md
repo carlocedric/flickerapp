@@ -6,13 +6,14 @@ This application lets you search photos in Flicker, and displays them in a 3-col
 
 ## Screenshots
 
-![App Screenshot](https://i.ibb.co/6yCb153/screenshot.jpg)
+![App Screenshot](https://i.ibb.co/6yCb153/screenshot.jpg|width=100))
 
 
 ## Architecture
 
 The architecture used in the app is MVVM-C
-![App Screenshot](https://i.ibb.co/L08y6XP/architecture.jpg)
+
+![App Screenshot](https://i.ibb.co/L08y6XP/architecture.jpg|width=100)
 
 - **Coordinator** - (PhotosSearchRouter) - this will control the flow of navigation in the app. This is where we instantiate the View Controller
 - **DI / Dependency Injection / Assembler** - This is where assemble the contract + their instance.
