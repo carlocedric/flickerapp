@@ -27,3 +27,5 @@ The architecture used in the app is MVVM-C
 ## What can be improved?
 - Due to time constraints I have not added support for pagination + unit tests
 - For Unit Tests - Cuckoo https://github.com/Brightify/Cuckoo is a good mocking library that I use to perform mocks and stubs
+- Comments all throughout the app should be descriptive of what each functions does
+- API service, Constants, etc can be further de-coupled for cleaner structure
